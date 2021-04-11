@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black; 
+    color: white;
+}
+.grand-parents{
+    width: 50%;
+    margin: auto;
+}
+#SearchFood{
+    padding: 10px;
+    outline: none;
+    width: 50%;
+}
+#pizza,#hamburger,#sushi,#steak,#macarons,#freid-chicken,#pasta,#greek-salad{
+    position:fixed;
+    background: rgb(179, 132, 132);
+    width: 25%;
+    margin-top: -2%;
+    display: none;
+}
+.order{
+    background: rgb(223, 221, 221);
+    height: 60vh;
+    color: black;
+}
+li{
+	padding: 5px 5px;
+	margin-bottom: 8px;
+    margin-left: -6%;
+}
+.delete,
+.edit{
+	border-radius: 2px;
+    background-color: #dc3545;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;  	
+    padding: 3px 5px;
+    cursor: pointer;
+    float: right;
+    width: 10%;
+    height: 3vh;
+}
+.edit{
+    background: rgb(110, 8, 85);
+    margin-right: 10%;
+}
+.delete{
+    margin-right: 30%;
+}
+.addmore .delete{
+    margin-right: 5%;
+}
+select{
+    padding: 10px;
+    outline: none;
+    width: 80%;
+}
+.quantity{
+    padding: 10px;
+    outline: none;
+}
+.add{
+    padding: 10px;
+    background: blue;
+    outline: none;
+    border:none;
+}
+#contact{
+    padding: 10px;
+    border-radius: 50px;
+    outline: none;
+    width: 16%;
+    background: green;
+    
+    
+}
+.moew{
+    margin-left: 10%;
+}
+#username{
+    padding: 8px;
+    width: 60%;
+    outline: none;
+    margin-top: 3%;
+}
+#email{
+    padding: 8px;
+    width: 60%;
+    outline: none;
+}
+#connect{
+    width: 70%;
+    background: rgb(92, 87, 87);
+    display: none;
+    border-radius: 30px;
+    height: 33vh;
+    margin-left: 15%;
+}
+.result p{
+    padding: -3px;
+}
+#applyButton{
+    background:#dc3545;
+    height: 5vh;
+    color: white;
+}
+#resultkoko{
+    display: none;
+    height: 40vh;
+    background:rgb(150, 18, 110);
+    width: 70%;
+    margin-left: 15%;
+}
+.koko{
+    margin-left: 10%;
+    margin-top: 4%;
+}
+.thank{
+    margin-left: 20%;
+} 
+.selec-food{
+    display: flex;
+    
+}
+.addmore p{
+    padding: 10px;
+    justify-content: space-around;
+    background: lightblue;
+}
+#quantoffood{
+    margin-left: 10%;
+}
+#updateId{
+    background: rgb(73, 107, 19);
+    width: 13%;
+    height: 5vh;
+    color: white;
+}
